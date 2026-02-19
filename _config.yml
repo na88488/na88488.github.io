@@ -3,3 +3,6 @@ title: na88488
 description: Thank you for comeing to this website.
 links:
   1: "https://na88488.github.io/"
+plugins:
+ - jekyll-sitema
+ 
