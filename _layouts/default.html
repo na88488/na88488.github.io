@@ -1,1 +1,21 @@
-a
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+</head>
+<body>
+    <header>
+        <!-- ヘッダーの内容 -->
+    </header>
+
+    <div class="main-content">
+        {{ content }}
+    </div>
+
+    <footer>
+        <!-- フッターの内容 -->
+    </footer>
+</body>
+</html>
